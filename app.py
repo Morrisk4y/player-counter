@@ -79,7 +79,7 @@ while True:
                 print("Players:", count)
                 playersonline = ("Players online:" + str(count))
 
-    #webhook url https://discord.com/api/webhooks/1013062930662690846/-7bWW_xeWxAdTrvPqisEJUF7hlpyQhXyyzd7WQ6ZBt58eM3gow5SKWv40xMcgQM4Kicx
+    #webhook url
                 webhook = DiscordWebhook(url='Webhhook url here')
                 embed = DiscordEmbed(title='embed title here', description=playersonline, color='03b2f8')
                 webhook.add_embed(embed)
